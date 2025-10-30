@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5b985aa-3ee4-4ab0-9d5c-40a372ed6c8b">
+  <producedTypes>
+    <objectType typeId="3b07f505-aafd-4415-8789-272b8a531680" valueTypeId="f18ab50d-7a9d-4683-bf6b-e15e26fdf643"/>
+    <refType typeId="7fc9304e-9b82-456e-9d45-fb19f0216f27" valueTypeId="39cfa79b-4fd3-4195-a699-74bd5e6b0078"/>
+    <selectionType typeId="caa85242-2c99-4407-9381-74aedb50b8f6" valueTypeId="78a16743-3c7c-46e9-a367-574d110b76d8"/>
+    <listType typeId="f8fd9756-1c16-48fe-a5d3-d70f0bcf625d" valueTypeId="a182e65d-35d6-403a-9c20-82cc298d6f40"/>
+    <managerType typeId="8d93c698-bc3e-4de2-9f73-c4d9420531bc" valueTypeId="24848c53-97e1-4c9b-bfe4-64a409d78c0d"/>
+  </producedTypes>
+  <name>ВидыАттракционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды аттракционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыАттракционов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыАттракционов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид аттракциона</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды аттракционов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4161625c-6da5-4d78-a9d1-07f324c1ec6a">
+    <name>ВидАттракциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид аттракциона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
